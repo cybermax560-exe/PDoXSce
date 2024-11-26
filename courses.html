@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - PDoXSce</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    /* Adding responsive styles and hover effects */
+    .course-card {
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+    .course-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .course-btn {
+      background-color: #4facfe;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .course-btn:hover {
+      background-color: #ff6f61;
+    }
+
+    .course-img {
+      width: 100%;
+      transition: transform 0.3s ease;
+    }
+
+    .course-card:hover .course-img {
+      transform: scale(1.1);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .courses-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .courses-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/67.png" alt="PDoXSce Logo" class="logo-img">
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html" class="active">Courses</a></li>
+      <li><a href="gallery.html">Workshops</a></li>
+      <!-- <li><a href="contact.html">Contact</a></li> -->
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="background: linear-gradient(45deg, #ff6f61, #4facfe);">
+    <div class="hero-content">
+      <h1>Our Courses</h1>
+      <p>Learn with the best! Explore our hands-on, interactive cybersecurity and IoT courses.</p>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section class="courses-section">
+    <div class="courses-container">
+      <!-- Course 1 -->
+      <div class="course-card" data-aos="fade-up">
+        <img src="images/4.jpg" alt="Cybersecurity Fundamentals" class="course-img">
+        <div class="course-info">
+          <h3>Cybersecurity Fundamentals</h3>
+          <p>Learn the foundational concepts of cybersecurity, from network security to ethical hacking techniques.</p>
+          <button class="course-btn">Enroll Now</button>
+        </div>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="course-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/7.jpg" alt="IoT Security and Hacking" class="course-img">
+        <div class="course-info">
+          <h3>IoT Security and Hacking</h3>
+          <p>Explore vulnerabilities in IoT devices and learn to secure smart technologies against hackers.</p>
+          <button class="course-btn">Enroll Now</button>
+        </div>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="course-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="images/6.jpg" alt="Advanced Hardware Hacking" class="course-img">
+        <div class="course-info">
+          <h3>Advanced Hardware Hacking</h3>
+          <p>Master the techniques for reverse engineering and hacking hardware for security research.</p>
+          <button class="course-btn">Enroll Now</button>
+        </div>
+      </div>
+
+      <!-- Course 4: Raspberry Pi Pico -->
+      <div class="course-card" data-aos="fade-up" data-aos-delay="300">
+        <img src="images/77.png" alt="Raspberry Pi Pico" class="course-img">
+        <div class="course-info">
+          <h3>Raspberry Pi Pico with Projects</h3>
+          <p>Get hands-on with the Raspberry Pi Pico and learn how to use it for hardware hacking and security applications.</p>
+          <button class="course-btn">Enroll Now</button>
+        </div>
+      </div>
+
+      <!-- Course 5: Arduino -->
+      <div class="course-card" data-aos="fade-up" data-aos-delay="400">
+        <img src="images/33.png" alt="Arduino" class="course-img">
+        <div class="course-info">
+          <h3>Arduino with Projects</h3>
+          <p>Master the Arduino platform, build security-focused projects, and explore vulnerabilities in embedded systems.</p>
+          <button class="course-btn">Enroll Now</button>
+        </div>
+      </div>
+
+      <!-- Course 6: Raspberry Pi SBC -->
+      <div class="course-card" data-aos="fade-up" data-aos-delay="500">
+        <img src="images/99.png" alt="Raspberry Pi SBC" class="course-img">
+        <div class="course-info">
+          <h3>Raspberry Pi SBC</h3>
+          <p>Learn how to work with Raspberry Pi Single Board Computers (SBCs) for embedded security, reverse engineering, and penetration testing.</p>
+          <button class="course-btn">Enroll Now</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 PDoXSce. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Initialize AOS (Animate on Scroll)
+    AOS.init({
+      duration: 1000,  // Animation duration in milliseconds
+      once: true,      // Trigger animation only once
+      offset: 100      // Offset the animation trigger point by 100px
+    });
+  </script>
+</body>
+</html>
+
