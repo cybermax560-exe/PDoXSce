@@ -14,4 +14,7 @@ const images = [
     galleryContainer.appendChild(img);
   });
   
-  
+  function toggleMenu() {
+  const navLinks = document.getElementById('nav-links');
+  navLinks.classList.toggle('show');
+}
