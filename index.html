@@ -1,154 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to PDoXSce</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">PDoXSce</div>
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="courses.html">Courses</a></li>
-      <li><a href="gallery.html">Workshops</a></li>
-      <!-- <li><a href="contact.html">Contact</a></li> -->
-    </ul>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to PDoXSce</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">PDoXSce</div>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="gallery.html">Workshops</a></li>
+        <!-- <li><a href="contact.html">Contact</a></li> -->
+      </ul>
+    </nav>
 
-  <!-- Hero Section -->
-  <section class="hero" style="background: linear-gradient(45deg, #ff6f61, #4facfe);">
-    <div class="hero-content" data-aos="fade-right">
-      <h1>Shape Your Future<br>with <span class="highlight">PDoXSce</span></h1>
-      <p>Join our cybersecurity and IoT programs to stay ahead in tech innovation.</p>
-      <br>
-      <div class="hero-buttons">
-        <a href="courses.html" class="btn-primary">Explore Courses</a>
-        <a href="contact.html" class="btn-secondary">Join a Workshop</a>
+    <!-- Hero Section -->
+    <section
+      class="hero"
+      style="background: linear-gradient(45deg, #ff6f61, #4facfe)"
+    >
+      <div class="hero-content" data-aos="fade-right">
+        <h1>
+          Shape Your Future<br />with <span class="highlight">PDoXSce</span>
+        </h1>
+        <p>
+          Join our cybersecurity and IoT programs to stay ahead in tech
+          innovation.
+        </p>
+        <br />
+        <div class="hero-buttons">
+          <a href="courses.html" class="btn-primary">Explore Courses</a>
+          <a href="contact.html" class="btn-secondary">Join a Workshop</a>
+        </div>
       </div>
-    </div>
-    <div class="hero-image" data-aos="fade-left">
-      <img src="images/66.png" alt="Cybersecurity">
-    </div>
-  </section>
- <!-- Our Expertise Section -->
-<section class="services" data-aos="fade-up" style="background: #f0f0f0; padding: 80px 0;">
-    <h2 style="font-size: 36px; text-align: center; color: #333; margin-bottom: 40px;">Our Expertise</h2>
-    <div class="services-container" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+      <div class="hero-image" data-aos="fade-left">
+        <img src="images/66.png" alt="Cybersecurity" />
+      </div>
+    </section>
+    <!-- Our Expertise Section -->
+    <section
+      class="services"
+      data-aos="fade-up"
+      style="background: #f0f0f0; padding: 80px 0"
+    >
+      <h2
+        style="
+          font-size: 36px;
+          text-align: center;
+          color: #333;
+          margin-bottom: 40px;
+        "
+      >
+        Our Expertise
+      </h2>
+      <div
+        class="services-container"
+        style="
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          flex-wrap: wrap;
+        "
+      >
         <!-- Cybersecurity Training -->
-        <div class="service-box" style="flex: 1; max-width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; border-radius: 8px;" data-aos="flip-left">
-            <img src="images/service-cybersecurity.png" alt="Cybersecurity" class="service-img" style="width: 100px; height: 100px; margin-bottom: 20px;">
-            <div class="service-content">
-                <h3 style="font-size: 24px; color: #333; margin-bottom: 15px;">Cybersecurity Training</h3>
-                <p style="font-size: 16px; color: #555;">Comprehensive courses to secure systems and networks. Learn from experts!</p>
-            </div>
+        <div
+          class="service-box"
+          style="
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+          "
+          data-aos="flip-left"
+        >
+          <!-- <img
+            src="images/1.jpg"
+            alt="Cybersecurity"
+            class="service-img"
+            style="width: 100px; height: 100px; margin-bottom: 20px"
+          /> -->
+          <div class="service-content">
+            <h3 style="font-size: 24px; color: #333; margin-bottom: 15px">
+              Cybersecurity Training
+            </h3>
+            <p style="font-size: 16px; color: #555">
+              Comprehensive courses to secure systems and networks. Learn from
+              experts!
+            </p>
+          </div>
         </div>
 
         <!-- IoT Security -->
-        <div class="service-box" style="flex: 1; max-width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; border-radius: 8px;" data-aos="flip-left" data-aos-delay="200">
-            <img src="images/service-iot.png" alt="IoT" class="service-img" style="width: 100px; height: 100px; margin-bottom: 20px;">
-            <div class="service-content">
-                <h3 style="font-size: 24px; color: #333; margin-bottom: 15px;">IoT Security</h3>
-                <p style="font-size: 16px; color: #555;">Learn how to safeguard Internet of Things devices against vulnerabilities.</p>
-            </div>
+        <div
+          class="service-box"
+          style="
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+          "
+          data-aos="flip-left"
+          data-aos-delay="200"
+        >
+          <!-- <img
+            src="images/2.jpg"
+            alt="IoT"
+            class="service-img"
+            style="width: 100px; height: 100px; margin-bottom: 20px"
+          /> -->
+          <div class="service-content">
+            <h3 style="font-size: 24px; color: #333; margin-bottom: 15px">
+              IoT Security
+            </h3>
+            <p style="font-size: 16px; color: #555">
+              Learn how to safeguard Internet of Things devices against
+              vulnerabilities.
+            </p>
+          </div>
         </div>
 
         <!-- Hardware Pentesting -->
-        <div class="service-box" style="flex: 1; max-width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; border-radius: 8px;" data-aos="flip-left" data-aos-delay="400">
-            <img src="images/service-hardware.png" alt="Hardware  Pentesting" class="service-img" style="width: 100px; height: 100px; margin-bottom: 20px;">
-            <div class="service-content">
-                <h3 style="font-size: 24px; color: #333; margin-bottom: 15px;">Hardware  Pentesting</h3>
-                <p style="font-size: 16px; color: #555;">Master reverse engineering and hardware exploitation techniques.</p>
-            </div>
+        <div
+          class="service-box"
+          style="
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+          "
+          data-aos="flip-left"
+          data-aos-delay="400"
+        >
+          <!-- <img
+            src="images/3.jpg"
+            alt="Hardware  Pentesting"
+            class="service-img"
+            style="width: 100px; height: 100px; margin-bottom: 20px"
+          /> -->
+          <div class="service-content">
+            <h3 style="font-size: 24px; color: #333; margin-bottom: 15px">
+              Hardware Pentesting
+            </h3>
+            <p style="font-size: 16px; color: #555">
+              Master reverse engineering and hardware exploitation techniques.
+            </p>
+          </div>
         </div>
 
         <!-- Embedded Systems Box -->
-        <div class="service-box" style="flex: 1; max-width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; border-radius: 8px;" data-aos="flip-left" data-aos-delay="600">
-            <img src="images/service-embedded.png" alt="Embedded Systems" class="service-img" style="width: 100px; height: 100px; margin-bottom: 20px;">
-            <div class="service-content">
-                <h3 style="font-size: 24px; color: #333; margin-bottom: 15px;">Embedded Systems</h3>
-                <p style="font-size: 16px; color: #555;">Learn to design, develop, and troubleshoot embedded systems for real-world applications.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- CEO Section -->
-<section class="ceo" style="background: #f8f9fa; padding: 80px 0;">
-    <div class="ceo-container" data-aos="fade-up">
-        <div class="ceo-image" style="flex: 1;">
-            <img src="images/ceo.jpg" alt="CEO Image" class="ceo-img" style="width: 100%; height: auto; border-radius: 8px;">
-        </div>
-        <div class="ceo-info" style="flex: 2; padding-left: 40px;">
-            <h2 style="font-size: 36px; color: #333; font-weight: bold;">Meet Our Visionary CEO</h2>
-            <h3 style="font-size: 28px; color: #ff6f61; font-weight: 600;">Debanjan Saha</h3>
-            <p class="ceo-title" style="font-size: 18px; color: #777; margin-bottom: 20px;">Founder & CEO of PDoXSce</p>
-            <p class="ceo-description" style="font-size: 18px; color: #555; line-height: 1.6;">
-                With over a decade of experience in cybersecurity, John Doe has become a leading figure in the tech education space. 
-                His passion for cybersecurity and IoT is the driving force behind PDoXSce's mission to equip students with cutting-edge skills. 
-                Under his leadership, PDoXSce has helped shape the careers of countless students.
+        <div
+          class="service-box"
+          style="
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+          "
+          data-aos="flip-left"
+          data-aos-delay="600"
+        >
+          <!-- <img
+            src="images/4.jpg"
+            alt="Embedded Systems"
+            class="service-img"
+            style="width: 100px; height: 100px; margin-bottom: 20px"
+          /> -->
+          <div class="service-content">
+            <h3 style="font-size: 24px; color: #333; margin-bottom: 15px">
+              Embedded Systems
+            </h3>
+            <p style="font-size: 16px; color: #555">
+              Learn to design, develop, and troubleshoot embedded systems for
+              real-world applications.
             </p>
+          </div>
         </div>
-    </div>
-</section>
-
-<!-- Testimonials Section -->
-<section class="testimonials" style="background: #fff; padding: 80px 0;" data-aos="fade-up">
-    <h2 style="font-size: 36px; text-align: center; color: #333; margin-bottom: 40px;">What Our Students Say</h2>
-    <div class="testimonials-container" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
-        <div class="testimonial" style="flex: 1; max-width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; border-radius: 8px;" data-aos="zoom-in">
-            <img src="images/student1.png" alt="Student 1" class="student-img" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 20px;">
-            <p style="font-size: 18px; color: #555; font-style: italic;">"The IoT Security course was outstanding! Highly recommended."</p>
-            <h4 style="font-size: 20px; color: #ff6f61; font-weight: 600;">Somnath Adhikary</h4>
+      </div>
+    </section>
+    <!-- CEO Section -->
+    <section class="ceo" style="background: #f8f9fa; padding: 80px 0">
+      <div class="ceo-container" data-aos="fade-up">
+        <div class="ceo-image" style="flex: 1">
+          <img
+            src="images/ceo.jpg"
+            alt="CEO Image"
+            class="ceo-img"
+            style="width: 100%; height: auto; border-radius: 8px"
+          />
         </div>
-        <div class="testimonial" style="flex: 1; max-width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; border-radius: 8px;" data-aos="zoom-in" data-aos-delay="200">
-            <img src="images/student2.png" alt="Student 2" class="student-img" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 20px;">
-            <p style="font-size: 18px; color: #555; font-style: italic;">"PDoXSce's hands-on workshops are a game-changer for learning."</p>
-            <h4 style="font-size: 20px; color: #ff6f61; font-weight: 600;">Angshuman Ghosh</h4>
+        <div class="ceo-info" style="flex: 2; padding-left: 40px">
+          <h2 style="font-size: 36px; color: #333; font-weight: bold">
+            Meet Our Visionary CEO
+          </h2>
+          <h3 style="font-size: 28px; color: #ff6f61; font-weight: 600">
+            Debanjan Saha
+          </h3>
+          <p
+            class="ceo-title"
+            style="font-size: 18px; color: #777; margin-bottom: 20px"
+          >
+            Founder & CEO of PDoXSce
+          </p>
+          <p
+            class="ceo-description"
+            style="font-size: 18px; color: #555; line-height: 1.6"
+          >
+            With over a decade of experience in cybersecurity, John Doe has
+            become a leading figure in the tech education space. His passion for
+            cybersecurity and IoT is the driving force behind PDoXSce's mission
+            to equip students with cutting-edge skills. Under his leadership,
+            PDoXSce has helped shape the careers of countless students.
+          </p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Call to Action Section -->
-<section class="cta" style="background: #ff6f61; color: #fff; padding: 30px 0;" data-aos="fade-up">
-    <div class="cta-content" style="text-align: center;">
-        <h2 style="font-size: 36px; font-weight: bold;">Ready to Learn?</h2>
-        <p style="font-size: 20px; line-height: 1.6; max-width: 500px; margin: 0 auto 30px;">Transform your skills with our expert-led training. Join thousands of students who are taking the leap to become leaders in the tech industry.</p>
-        <a href="courses.html" class="btn-primary" style="font-size: 20px; padding: 15px 30px; background: #fff; color: #ff6f61; border-radius: 50px; text-decoration: none; font-weight: 600;">Get Started</a>
-    </div>
-</section>
+    <!-- Testimonials Section -->
+    <section
+      class="testimonials"
+      style="background: #fff; padding: 80px 0"
+      data-aos="fade-up"
+    >
+      <h2
+        style="
+          font-size: 36px;
+          text-align: center;
+          color: #333;
+          margin-bottom: 40px;
+        "
+      >
+        What Our Students Say
+      </h2>
+      <div
+        class="testimonials-container"
+        style="
+          display: flex;
+          justify-content: center;
+          gap: 40px;
+          flex-wrap: wrap;
+        "
+      >
+        <div
+          class="testimonial"
+          style="
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+          "
+          data-aos="zoom-in"
+        >
+          <img
+            src="images/student1.png"
+            alt="Student 1"
+            class="student-img"
+            style="
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              margin-bottom: 20px;
+            "
+          />
+          <p style="font-size: 18px; color: #555; font-style: italic">
+            "The IoT Security course was outstanding! Highly recommended."
+          </p>
+          <h4 style="font-size: 20px; color: #ff6f61; font-weight: 600">
+            Somnath Adhikary
+          </h4>
+        </div>
+        <div
+          class="testimonial"
+          style="
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+          "
+          data-aos="zoom-in"
+          data-aos-delay="200"
+        >
+          <img
+            src="images/student2.png"
+            alt="Student 2"
+            class="student-img"
+            style="
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              margin-bottom: 20px;
+            "
+          />
+          <p style="font-size: 18px; color: #555; font-style: italic">
+            "PDoXSce's hands-on workshops are a game-changer for learning."
+          </p>
+          <h4 style="font-size: 20px; color: #ff6f61; font-weight: 600">
+            Angshuman Ghosh
+          </h4>
+        </div>
+      </div>
+    </section>
 
- <!-- Footer Section -->
-<footer style="background: #222; color: #fff; padding: 40px 0; text-align: center;">
-    <p>&copy; 2024 PDoXSce. All rights reserved.</p>
-    <div class="social-media-icons">
+    <!-- Call to Action Section -->
+    <section
+      class="cta"
+      style="background: #ff6f61; color: #fff; padding: 30px 0"
+      data-aos="fade-up"
+    >
+      <div class="cta-content" style="text-align: center">
+        <h2 style="font-size: 36px; font-weight: bold">Ready to Learn?</h2>
+        <p
+          style="
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 500px;
+            margin: 0 auto 30px;
+          "
+        >
+          Transform your skills with our expert-led training. Join thousands of
+          students who are taking the leap to become leaders in the tech
+          industry.
+        </p>
+        <!-- <a href="courses.html" class="btn-primary" style="font-size: 20px;
+            padding: 15px 30px;
+            background: #fff;
+            color: #ff6f61;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;">Get Started</a> -->
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer
+      style="background: #222; color: #fff; padding: 40px 0; text-align: center"
+    >
+      <p>&copy; 2024 PDoXSce. All rights reserved.</p>
+      <div class="social-media-icons">
         <!-- Instagram Icon -->
-        <a href="https://www.instagram.com/cybermax560/" target="_blank" style="margin: 0 15px; font-size: 30px; color: #fff; text-decoration: none;">
-            <i class="fab fa-instagram"></i>
+        <a
+          href="https://www.instagram.com/cybermax560/"
+          target="_blank"
+          style="
+            margin: 0 15px;
+            font-size: 30px;
+            color: #fff;
+            text-decoration: none;
+          "
+        >
+          <i class="fab fa-instagram"></i>
         </a>
         <!-- LinkedIn Icon -->
-        <a href="https://www.linkedin.com/in/debanjansaha360/" target="_blank" style="margin: 0 15px; font-size: 30px; color: #fff; text-decoration: none;">
-            <i class="fab fa-linkedin"></i>
+        <a
+          href="https://www.linkedin.com/in/debanjansaha360/"
+          target="_blank"
+          style="
+            margin: 0 15px;
+            font-size: 30px;
+            color: #fff;
+            text-decoration: none;
+          "
+        >
+          <i class="fab fa-linkedin"></i>
         </a>
         <!-- YouTube Icon -->
-        <a href="https://www.youtube.com/c/maxtechnical360" target="_blank" style="margin: 0 15px; font-size: 30px; color: #fff; text-decoration: none;">
-            <i class="fab fa-youtube"></i>
+        <a
+          href="https://www.youtube.com/c/maxtechnical360"
+          target="_blank"
+          style="
+            margin: 0 15px;
+            font-size: 30px;
+            color: #fff;
+            text-decoration: none;
+          "
+        >
+          <i class="fab fa-youtube"></i>
         </a>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 
-<!-- Include FontAwesome for Social Media Icons -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Include FontAwesome for Social Media Icons -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
-
