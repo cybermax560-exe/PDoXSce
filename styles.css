@@ -524,7 +524,7 @@ body {
   /* CEO Section */
 .ceo {
     background: #f8f9fa; /* Light gray background for a clean and professional look */
-    padding: 60px 0; /* Vertical padding for spacing */
+    padding: 50px 0; /* Vertical padding for spacing */
   }
   
   .ceo-container {
@@ -626,4 +626,5 @@ body {
       grid-template-columns: 1fr; /* Single column layout */
     }
   }
+
   
